@@ -27,7 +27,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="11" y="280" width="274" height="30"/>
+                                    <rect key="frame" x="11" y="323" width="274" height="30"/>
                                 </variation>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yg0-K5-PVM">
@@ -53,12 +53,21 @@
                                     <rect key="frame" x="16" y="72" width="269" height="88"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ahv-5H-Ton">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="173" width="129" height="56"/>
+                                </variation>
+                            </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Message" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4fN-tk-xI4">
                                 <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="11" y="318" width="274" height="30"/>
+                                    <rect key="frame" x="11" y="275" width="274" height="30"/>
                                 </variation>
                             </textField>
                         </subviews>
@@ -69,6 +78,7 @@
                                 <exclude reference="A7F-EU-xg3"/>
                                 <exclude reference="yg0-K5-PVM"/>
                                 <exclude reference="kXw-rM-v2a"/>
+                                <exclude reference="ahv-5H-Ton"/>
                                 <exclude reference="4fN-tk-xI4"/>
                             </mask>
                         </variation>
@@ -78,6 +88,7 @@
                                 <include reference="A7F-EU-xg3"/>
                                 <include reference="yg0-K5-PVM"/>
                                 <include reference="kXw-rM-v2a"/>
+                                <include reference="ahv-5H-Ton"/>
                                 <include reference="4fN-tk-xI4"/>
                             </mask>
                         </variation>
@@ -87,11 +98,12 @@
                         <outlet property="enterNameTextField" destination="A7F-EU-xg3" id="XpI-HM-6WH"/>
                         <outlet property="mailButton" destination="yg0-K5-PVM" id="CP5-Jz-bwY"/>
                         <outlet property="messageLabel" destination="kXw-rM-v2a" id="Skm-Vf-scE"/>
+                        <outlet property="nameLabel" destination="ahv-5H-Ton" id="2Zv-M0-dmL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1810.5" y="325"/>
+            <point key="canvasLocation" x="1810" y="325"/>
         </scene>
         <!--Barcelona-->
         <scene sceneID="2ua-GL-ZLJ">
