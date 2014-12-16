@@ -13,6 +13,8 @@
 		D9F285981A3ECD30005338F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9F285971A3ECD30005338F7 /* Images.xcassets */; };
 		D9F2859B1A3ECD30005338F7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9F285991A3ECD30005338F7 /* LaunchScreen.xib */; };
 		D9F285A71A3ECD30005338F7 /* postcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F285A61A3ECD30005338F7 /* postcardTests.swift */; };
+		D9F285B11A3ED199005338F7 /* 52544190e8e44eff020006cf_ad-classics-la-sagrada-familia-antoni-gaudi_sfpassio-908x1000.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9F285B01A3ED199005338F7 /* 52544190e8e44eff020006cf_ad-classics-la-sagrada-familia-antoni-gaudi_sfpassio-908x1000.jpg */; };
+		D9F285B31A3ED505005338F7 /* Albert_Einstein_1979_USSR_Stamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9F285B21A3ED505005338F7 /* Albert_Einstein_1979_USSR_Stamp.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		D9F285A01A3ECD30005338F7 /* postcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = postcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9F285A51A3ECD30005338F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9F285A61A3ECD30005338F7 /* postcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postcardTests.swift; sourceTree = "<group>"; };
+		D9F285B01A3ED199005338F7 /* 52544190e8e44eff020006cf_ad-classics-la-sagrada-familia-antoni-gaudi_sfpassio-908x1000.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "52544190e8e44eff020006cf_ad-classics-la-sagrada-familia-antoni-gaudi_sfpassio-908x1000.jpg"; sourceTree = "<group>"; };
+		D9F285B21A3ED505005338F7 /* Albert_Einstein_1979_USSR_Stamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Albert_Einstein_1979_USSR_Stamp.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		D9F2858E1A3ECD30005338F7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D9F285B21A3ED505005338F7 /* Albert_Einstein_1979_USSR_Stamp.jpg */,
+				D9F285B01A3ED199005338F7 /* 52544190e8e44eff020006cf_ad-classics-la-sagrada-familia-antoni-gaudi_sfpassio-908x1000.jpg */,
 				D9F2858F1A3ECD30005338F7 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,6 +200,8 @@
 			files = (
 				D9F285961A3ECD30005338F7 /* Main.storyboard in Resources */,
 				D9F2859B1A3ECD30005338F7 /* LaunchScreen.xib in Resources */,
+				D9F285B31A3ED505005338F7 /* Albert_Einstein_1979_USSR_Stamp.jpg in Resources */,
+				D9F285B11A3ED199005338F7 /* 52544190e8e44eff020006cf_ad-classics-la-sagrada-familia-antoni-gaudi_sfpassio-908x1000.jpg in Resources */,
 				D9F285981A3ECD30005338F7 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
